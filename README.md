@@ -1,6 +1,6 @@
 # WooCommerce disable seperate shipping address
 
-This 
+This plugin intends to simplify checkout with the assumption that most customers will use the same address for billing as for shipping.
 
 ## Development
 1. Clone the child theme from it's GitHub Repository [Download StoreFront Blank Child Theme](https://github.com/stuartduff/storefront-child-theme).
@@ -16,4 +16,4 @@ This
 
 ## Usage
 
-After activation of this plugin the WooCommerce the checkout page should default to having the same address for shipping and post.
+After activation of this plugin the WooCommerce the checkout page should default to having the same address for shipping and billing.

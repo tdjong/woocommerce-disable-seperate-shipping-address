@@ -1,15 +1,14 @@
 #!/bin/bash
 # release latest committed version as easy installable zip
-THEME=`basename "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"`
-echo Theme = $THEME
+PLUGIN=`basename "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"`
+echo Plugin = $PLUGIN
 
 # show changes
 git diff
 read -p "Press enter to continue" key
 
 # update version if needed
-
-VERSIONFILE=style.css
+VERSIONFILE=$PLUGIN.php
 # show old version and write new version
 echo Previous version:
 OLDVERSION=`grep -i Version $VERSIONFILE`
