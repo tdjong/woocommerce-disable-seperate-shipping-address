@@ -32,4 +32,4 @@ git commit -a -m "Bump to version $version"
 # using git commands
 
 # zip for installation via wordpress interface
-git archive -v --format zip --prefix $THEME/ -o ../$THEME.zip HEAD
+git archive -v --format zip --prefix $PLUGIN/ -o ../$PLUGIN.zip HEAD
